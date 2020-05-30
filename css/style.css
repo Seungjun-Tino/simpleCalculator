@@ -1,0 +1,48 @@
+body{
+    height: 100%;
+}
+#mainContainer {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    background-color:#577284;
+    justify-content: center;
+}
+
+#info {
+    background-color:#577284;
+    font-size: 15px;
+}
+
+#inputNum {
+    background-color: #BCBCBE;
+}
+
+.row {
+    display: flex;
+    direction: row;
+    height: 75px;
+}
+
+.num {
+    background-color: gray;
+}
+
+input {
+    color: whitesmoke;
+}
+
+.top {
+    background-color: #9F9C99;
+}
+
+.operator{
+    background-color: 	#FF8C00;
+}
+input {
+    border: 1px solid black;
+}
+#calculator {
+    width: 500px;
+    margin: auto;
+}

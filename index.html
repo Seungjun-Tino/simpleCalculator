@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- bootstrap is used for the layout -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="js/custom.js"></script>
+    <!-- https://www.jqueryscript.net/animation/jQuery-Plugin-For-CSS3-Based-Ripple-Click-Effect-yarp-js.html -->
+        <script src="js/yarp.min.js"></script>
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <div id="mainContainer">
+        <div id="calculator">
+            <div class="col-12 m-auto p-0 row yarp">
+                <input id="inputNum" type="number" class="col-12" />
+            </div>
+            <div class="col-12 m-auto p-0 row">
+                <input id="clearInput" class="col-3 top" type="button" value="C" />
+                <input id="convert" class="col-3 top" type="button" value="+/-" />
+                <input id="decimal" class="col-3 top" type="button" value="%" />
+                <input id="divide" class="col-3 operator" type="button" value="/" />
+            </div>
+
+            <div class="col-12 m-auto p-0 row">
+                <input  class="col-3 num" type="button" value="7">
+                <input  class="col-3 num" type="button" value="8">
+                <input  class="col-3 num" type="button" value="9">
+                <input id="multiply" class="col-3 operator" type="button" value="X" />
+            </div>
+
+            <div class="col-12 m-auto p-0 row">
+                <input class="col-3 num" type="button" value="4">
+                <input class="col-3 num" type="button" value="5">
+                <input class="col-3 num" type="button" value="6">
+                <input id="substract" class="col-3 operator" type="button" value="-" />
+            </div>
+
+            <div class="col-12 m-auto p-0 row">
+                <input class="col-3 num" type="button" value="1">
+                <input class="col-3 num" type="button" value="2">
+                <input class="col-3 num" type="button" value="3">
+                <input id="add" class="col-3 operator" type="button" value="+">
+            </div>
+
+            <div class="col-12 m-auto p-0 row">
+                <input class="col-6 num" type="button" value="0" />
+                <input class="col-3 num" type="button" value="." />
+                <input id="calculate" class="col-3 operator" type="button" value="=" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
